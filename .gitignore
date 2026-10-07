@@ -6,3 +6,5 @@ target
 
 # Auto-generated Soroban test snapshots (build artifacts)
 test_snapshots/
+config.bat
+node_modules

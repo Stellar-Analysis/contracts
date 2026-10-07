@@ -17,7 +17,7 @@ detail lives in `docs/events/<crate>.md`; this file is the map.
 | `multi-sig-wallet` | Storage-only today | Wallet activity feed (planned) |
 | `time-locked-transactions` | Storage-only today | Status panel (planned) |
 | `token-swap` | Storage-only today | Top Movers ranking (planned) |
-| `upgrade` | Storage-only today | New Deployments panel (planned) |
+| `upgrade` | Yes | New Deployments panel (distinguishes fresh deploy from governance upgrade) |
 
 ## `stellar_analysis`
 
@@ -38,3 +38,7 @@ See [`docs/events/escrow.md`](events/escrow.md).
 ## `governance`
 
 See [`docs/events/governance.md`](events/governance.md).
+
+## `upgrade`
+
+See [`docs/events/upgrade.md`](events/upgrade.md).
