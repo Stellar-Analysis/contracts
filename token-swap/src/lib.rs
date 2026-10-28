@@ -375,3 +375,6 @@ impl TokenSwapContract {
 }
 
 mod test;
+
+#[cfg(test)]
+mod fuzz_tests;
